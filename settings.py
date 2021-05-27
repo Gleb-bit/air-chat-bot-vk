@@ -1,5 +1,5 @@
 GROUP_ID = 193249309
-TOKEN = '9eac46bc3ae9df0e2bdc3404d0f5f70ef346a39fc314f6a26575cdfe98f9a89512a000668fb05b316a524'
+TOKEN = ''
 
 DB_CONFIG = dict(
     provider='postgres',
