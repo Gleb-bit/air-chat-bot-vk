@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  bot:
+    image: air_bot:latest
+    restart: always
+    command: python bot.py
+    ports:
+      - 5432:5432
+    volumes:
+      - .:/app

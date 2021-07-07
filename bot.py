@@ -9,10 +9,7 @@ from pony.orm import db_session
 import handlers
 from models import UserState, Registration
 
-try:
-    import settings
-except ImportError:
-    exit('DO cp settings.py.default settings.py and set token!')
+import settings
 
 import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
